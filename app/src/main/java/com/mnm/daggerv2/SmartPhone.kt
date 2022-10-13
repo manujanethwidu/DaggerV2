@@ -9,7 +9,7 @@ class SmartPhone(val battery: Battery, val simCard: SimCard, val memoryCard: Mem
         battery.getPower()
         simCard.getConnection()
         memoryCard.getSpaceAvailability()
-        Log.i(tag, "Smart Phone Constructed")
+        Log.i(tag, "Smart Phone Constructed f")
     }
 
     fun makeACallWithRecording() {
